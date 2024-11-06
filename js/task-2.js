@@ -3,10 +3,10 @@ function formatMessage(message, maxLength) {
     if (l <= maxLength) {
         return message;
     } else {
-        message = message.slice(0, maxLength);
+        const message1 = message.slice(0, maxLength);
         const dot = "..."
-        message = message + dot;
-        return message;
+        message1 = message + dot;
+        return message1;
     }
 }
 
