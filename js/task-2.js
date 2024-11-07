@@ -3,7 +3,7 @@ function formatMessage(message, maxLength) {
     if (l <= maxLength) {
         return message;
     } else {
-        const message1 = message.slice(0, maxLength);
+        let message1 = message.slice(0, maxLength);
         const dot = "..."
         message1 = message + dot;
         return message1;
